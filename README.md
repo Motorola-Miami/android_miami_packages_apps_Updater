@@ -1,7 +1,14 @@
 Updater
 =======
-Simple application to download and apply OTA packages.
+Simple application to download and apply OTA packages on Miami devices
 
+
+How to adapt to make the official updater repo be miami specific:
+-------------------
+1. Apply [this](https://github.com/Motorola-Miami/android_miami_packages_apps_Updater/commit/0a0442dade5b72ab169f9d96beff2b22d882f1ff) modification to the offical updater repo (located at packages/apps/updater),  If you need any help contact [@Rakhshan7070](https://github.com/Rakhshan7070) on [Telegram](https://t.me/shan_rakh) or Email (alirakhshan7070@gmail.com)
+2. Build with the modified repo.
+3. Give intial OTA support for the ROM that you build [here](https://github.com/Motorola-Miami/android_vendor_miamiOTA).
+4. After you have done atleast one OTA Update, the modified updater repo will pushed here as 15.0_ROM branch.
 
 Server requirements
 -------------------
