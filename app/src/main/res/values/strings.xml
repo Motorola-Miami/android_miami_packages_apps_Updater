@@ -30,7 +30,7 @@
         Optional placeholders replaced at runtime:
           {device} - Device name
     -->
-    <string name="updater_server_url_gapps" translatable="false">https://raw.githubusercontent.com/MistOS-Devices/official_devices/15/GAPPS_{device}.json</string>
+    <string name="updater_server_url_gapps" translatable="false">https://raw.githubusercontent.com/Motorola-Miami/android_vendor_miamiOTA/refs/heads/15.0/GAPPS_mist.json</string>
     <string name="updater_server_url_core" translatable="false">https://raw.githubusercontent.com/MistOS-Devices/official_devices/15/CORE_{device}.json</string>
     <string name="updater_server_url_vanilla" translatable="false">https://raw.githubusercontent.com/MistOS-Devices/official_devices/15/VANILLA_{device}.json</string>
 
